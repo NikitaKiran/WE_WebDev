@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    cursor: pointer;
+}
+
+.content {
+    display: block;
+    margin-left: 20px;
+}
+
+nav#table-of-contents {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+nav#table-of-contents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav#table-of-contents li {
+    margin-bottom: 5px;
+}
+
+.content {
+    display: none;
+}
